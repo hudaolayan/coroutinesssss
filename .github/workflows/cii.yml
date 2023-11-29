@@ -3,7 +3,7 @@ name: huda Android CII
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   build:
