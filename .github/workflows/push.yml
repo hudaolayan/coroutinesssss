@@ -1,4 +1,4 @@
-name: Android CI
+name: huda Android CI
 
 on:
   push:
