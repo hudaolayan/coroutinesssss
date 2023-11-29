@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         lifecycleScope.launch(Dispatchers.Main) {
-            println("huda inspects threads ,,11  ${coroutineContext[CoroutineDispatcher]}")
+            println("huda inspects threads ,,111  ${coroutineContext[CoroutineDispatcher]}")
         }
         lifecycleScope.launch(Dispatchers.Default) {
             println("huda inspects threads ,,2  ${coroutineContext[CoroutineDispatcher]}")
